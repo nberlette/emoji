@@ -4,31 +4,37 @@ Terribly simple emoji-finder command line script.
 
 ## Installation
 
-<table cellpadding=0 cellspacing=0 width="100%">
-<tbody><tr>
-<td width="50%">
+#### Yarn (recommended)
 
-### Yarn (recommended)
 ```bash
 yarn global add @nberlette/emoji
 ```
 
-</td>
-<td width="50%">
-
-### ... or with npm
+#### ... or with npm
+  
 ```bash
 npm install -g @nberlette/emoji
 ```
 
-</td>
-</tr></tbody>
-</table>
+## Usage (resource)
 
-## Usage
+#### ES6 (import)
+
+```js
+import emoji from '@nberlette/emoji'
+```
+
+#### CommonJS (require)
+
+```js
+const emoji = require('@nberlette/emoji')
+```
+
+
+## Usage (command line)
 
 ```bash
-emoji [keyword]
+$ emoji [keyword]
 ```
 
 * **Exact hit**: returns just the emoji for `keyword`
@@ -36,4 +42,4 @@ emoji [keyword]
 * **Multiple results**: returns array of emojis and keywords that contain `keyword`
 * If `keyword` is omitted, returns the whole emoji list
 
-![Example screenshot of emoji usage](screenshot.png)
+![Example screenshot of emoji usage](https://github.com/nberlette/emoji/raw/master/screenshot.png)
