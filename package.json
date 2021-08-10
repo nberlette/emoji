@@ -1,6 +1,6 @@
 {
   "name": "@nberlette/emoji",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "private": false,
   "author": {
@@ -13,6 +13,8 @@
   "bugs": "https://github.com/nberlette/emoji/issues",
   "readme": "https://github.com/nberlette/emoji#readme",
   "main": "index.js",
+  "module": "index.mjs",
+  "esnext": "index.mjs",
   "bin": {
       "emoji": "./bin/emoji.js"
   },
@@ -28,7 +30,6 @@
     "index.mjs",
     "bin/emoji.js",
     "emoji.json",
-    "screenshot.png",
     "README.md"
   ],
   "directories": {
@@ -38,7 +39,8 @@
   "exports": {
     "import": "./index.mjs",
     "require": "./index.js",
-    "default": "./index.js"
+    "default": "./index.js",
+    "node": "./"
   },
   "type": "commonjs",
   "devDependencies": {

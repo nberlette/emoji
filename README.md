@@ -1,45 +1,57 @@
 # @nberlette/emoji
 
-Terribly simple emoji-finder command line script.
+Straightforward emoji database for your next project. Includes support for CommonJS, ES, and CLI.
 
-## Installation
+## Using as a resource/dependency
 
-#### Yarn (recommended)
+### Install with [Yarn](https://yarnpkg.com/) (recommended)
 
 ```bash
-yarn global add @nberlette/emoji
+yarn add @nberlette/emoji
+
+# or npm
+npm install --save @nberlette/emoji
 ```
 
-#### ... or with npm
-  
-```bash
-npm install -g @nberlette/emoji
-```
-
-## Usage (resource)
-
-#### ES6 (import)
+### `import` - ECMAScript/ES
 
 ```js
-import emoji from '@nberlette/emoji'
+// default import, any name works
+import emojis from '@nberlette/emoji'
+
+// named import, exposed as 'emoji'
+import { emoji } from '@nberlette/emoji'
 ```
 
-#### CommonJS (require)
+### `require` - CommonJS/Node
 
 ```js
 const emoji = require('@nberlette/emoji')
 ```
 
+## Command Line Interface
 
-## Usage (command line)
+### Global install
+
+```bash
+yarn global add @nberlette/emoji
+
+# or npm
+npm install -g @nberlette/emoji
+```
+
+### Search for emojis!
 
 ```bash
 $ emoji [keyword]
 ```
 
-* **Exact hit**: returns just the emoji for `keyword`
-* **Single result**: returns the emoji and it's trigger word
-* **Multiple results**: returns emoji and it's trigger word for each similar match
-* If `keyword` is omitted, returns the whole emoji list
+> `keyword` argument is optional, if omitted it returns the entire list of emojis.
+
+#### Returns
+
+* **Exact match**: returns just the emoji for `keyword`
+* **Single result**: returns the emoji + keyword (or _trigger_)
+* **Many results**: returns emoji + keyword for each match
 
 ![Example screenshot of emoji usage](https://github.com/nberlette/emoji/raw/master/screenshot.png)
