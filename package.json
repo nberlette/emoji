@@ -1,0 +1,35 @@
+{
+  "name": "@nberlette/emoji",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "Nicholas Berlette",
+    "email": "nick@berlette.com",
+    "url": "https://nick.berlette.com"
+  },
+  "homepage": "https://nick.berlette.com/emoji",
+  "repository": "github:nberlette/emoji",
+  "bugs": "https://github.com/nberlette/emoji/issues",
+  "readme": "https://github.com/nberlette/emoji#readme",
+  "main": "index.js",
+  "bin": {
+      "emoji": "./bin/emoji.js"
+  },
+  "scripts": {
+    "emoji": ". ./bin/emoji.js"
+  },
+  "files": [
+    "index.js",
+    "bin/emoji.js",
+    "emoji.json",
+    "screenshot.png",
+    "README.md"
+  ],
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js",
+    "default": "./index.js"
+  },
+  "type": "commonjs"
+}
