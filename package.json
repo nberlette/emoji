@@ -17,7 +17,11 @@
       "emoji": "./bin/emoji.js"
   },
   "scripts": {
-    "emoji": ". ./bin/emoji.js"
+    "emoji": "node ./bin/emoji.js",
+    "test": "node ./test/basic.mjs",
+    "test:cjs": "node ./test/basic.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "files": [
     "index.js",
@@ -28,12 +32,16 @@
     "README.md"
   ],
   "directories": {
-    "bin": "./bin"
+    "bin": "./bin",
+    "test": "./test"
   },
   "exports": {
     "import": "./index.mjs",
     "require": "./index.js",
     "default": "./index.js"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "standard": "~16.0.3"
+  }
 }

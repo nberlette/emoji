@@ -38,8 +38,8 @@ $ emoji [keyword]
 ```
 
 * **Exact hit**: returns just the emoji for `keyword`
-* **Single result**:same as above, even if `keyword` isn't a direct match
-* **Multiple results**: returns array of emojis and keywords that contain `keyword`
+* **Single result**: returns the emoji and it's trigger word
+* **Multiple results**: returns emoji and it's trigger word for each similar match
 * If `keyword` is omitted, returns the whole emoji list
 
 ![Example screenshot of emoji usage](https://github.com/nberlette/emoji/raw/master/screenshot.png)
