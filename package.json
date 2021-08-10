@@ -35,6 +35,14 @@
     "bin": "./bin",
     "test": "./test"
   },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "emoji.json",
+    "bin/emoji.js",
+    "README.md",
+    "LICENSE"
+  ],
   "main": "index.js",
   "module": "index.mjs",
   "esnext": "index.mjs",
