@@ -1,6 +1,6 @@
 {
   "name": "@nberlette/emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": false,
   "author": {
@@ -21,11 +21,15 @@
   },
   "files": [
     "index.js",
+    "index.mjs",
     "bin/emoji.js",
     "emoji.json",
     "screenshot.png",
     "README.md"
   ],
+  "directories": {
+    "bin": "./bin"
+  },
   "exports": {
     "import": "./index.mjs",
     "require": "./index.js",
