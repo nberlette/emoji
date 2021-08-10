@@ -1,4 +1,4 @@
-import emoji, { emoji as emojis } from '@nberlette/emoji'
+import emojis, { emoji } from '@nberlette/emoji'
 
 let i = 0
 for (const k in emoji) {

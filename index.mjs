@@ -1,6 +1,5 @@
-import { readFileSync } from 'fs'
+import { readFileSync as read } from 'fs'
+const { parse } = JSON
 
-const emoji = JSON.parse(readFileSync('./emoji.json'))
-
-export { emoji }
+export const emoji = parse(read('./emoji.json'))
 export default emoji

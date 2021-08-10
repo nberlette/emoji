@@ -8,13 +8,19 @@
     "email": "nick@berlette.com",
     "url": "https://nick.berlette.com"
   },
-  "homepage": "https://nick.berlette.com/emoji",
+  "description": "🔥 Super-simple emoji database and CLI.",
+  "keywords": [
+    "emoji",
+    "emojis-database",
+    "emojis-filter",
+    "command-line",
+    "cli",
+    "emojis"
+  ],
+  "homepage": "https://github.com/nberlette/emoji",
   "repository": "github:nberlette/emoji",
   "bugs": "https://github.com/nberlette/emoji/issues",
   "readme": "https://github.com/nberlette/emoji#readme",
-  "main": "index.js",
-  "module": "index.mjs",
-  "esnext": "index.mjs",
   "bin": {
       "emoji": "./bin/emoji.js"
   },
@@ -25,24 +31,20 @@
     "lint": "standard",
     "lint:fix": "standard --fix"
   },
-  "files": [
-    "index.js",
-    "index.mjs",
-    "bin/emoji.js",
-    "emoji.json",
-    "README.md"
-  ],
   "directories": {
     "bin": "./bin",
     "test": "./test"
   },
+  "main": "index.js",
+  "module": "index.mjs",
+  "esnext": "index.mjs",
+  "type": "commonjs",
   "exports": {
     "import": "./index.mjs",
-    "require": "./index.js",
     "default": "./index.js",
-    "node": "./"
+    "require": "./index.js",
+    "node": "./index.js"
   },
-  "type": "commonjs",
   "devDependencies": {
     "standard": "~16.0.3"
   }

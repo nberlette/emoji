@@ -22,7 +22,7 @@ function getEmoji (q) {
   // otherwise find closest matches (no limit implemented yet)
   const results = filter([...emoji.keys()], q).map(k => [`${(emoji.has(k) ? emoji.get(k) : null)} `, k])
 
-  if (results.length > 0) results.forEach(r => (r !== undefined) && log(r.join(': ')))
+  if (results.length > 0) results.forEach(r => (r !== undefined) && log(r.join('  ')))
   else log('no results')
 }
 
