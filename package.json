@@ -43,15 +43,19 @@
     "README.md",
     "LICENSE"
   ],
-  "main": "index.js",
-  "module": "index.mjs",
-  "esnext": "index.mjs",
-  "type": "commonjs",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "esnext": "./index.mjs",
+  "browser": "./index.mjs",
+  "unpkg": "./index.mjs",
   "exports": {
-    "import": "./index.mjs",
-    "default": "./index.js",
-    "require": "./index.js",
-    "node": "./index.js"
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json",
+    "./emoji.json": "./emoji.json"
   },
   "devDependencies": {
     "standard": "~16.0.3"
