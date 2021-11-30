@@ -58,7 +58,7 @@ import { emoji } from 'https://esm.run/@nberlette/emoji';
 ## 🔘  Usage  
 
 
-### 🅰️  `import`  ·  ES6 (`.mjs`) for Next.js, React, Svelte, ...
+### 🅰️  `import`  ·  ES6: for Next.js, React, Svelte, ...
 
 Works with **default** (any variable name!), **named** (must be `emoji`), and **aliased** (assign a new name) imports:
 
@@ -73,7 +73,7 @@ import { emoji } from '@nberlette/emoji';
 import { emoji as emojiAlias } from '@nberlette/emoji';
 ```
 
-### 🅱️  `require`  ·  CommonJS (`.cjs`) for Node.js, RunKit, ...
+### 🅱️  `require`  ·  CommonJS: for Node.js, RunKit, ...
 
 CommonJS-equivalents to **default**, **named**, and **aliased** imports:
 
