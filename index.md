@@ -117,6 +117,9 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 > 
 > Food for thought. 😉 
 
+[treeshaking-url]: https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking "Tree-Shaking Definition - MDN Glossary"
+[codesplitting-url]: https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting "Code Splitting Definition - MDN Glossary"
+
 - - -  
 
 <p align="center">
