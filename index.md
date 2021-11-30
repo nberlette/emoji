@@ -46,9 +46,13 @@ Pick your flavor of package manager (I like pnpm, followed closely by yarn)
       
 ```bash
 pnpm add @nberlette/emoji
+```
 
+```bash
 yarn add @nberlette/emoji
+```
 
+```bash
 npm i --save @nberlette/emoji
 ```
 
@@ -71,10 +75,14 @@ Works with **default** (any name), **named** (must be `emoji`), and **aliased** 
 ```js
 // default
 import nicksEmojiLib from '@nberlette/emoji';
+```
 
+```js
 // named 
 import { emoji } from '@nberlette/emoji';
+```
 
+```js
 // aliased
 import { emoji as emojiAlias } from '@nberlette/emoji';
 ```
@@ -90,10 +98,14 @@ CommonJS "equivalents" for **default**, **named**, and **aliased** imports:
 ```cjs
 // default
 const myEmojiLib = require('@nberlette/emoji').default;
+```
 
+```cjs
 // named
 const { emoji } = require('@nberlette/emoji');
+```
 
+```cjs
 // aliased
 const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 ```
@@ -122,16 +134,20 @@ Before using the `emoji` command in your terminal, you'll first need to globally
 
 ```bash
 yarn global add @nberlette/emoji
-# or
+```
+
+```bash
 pnpm add -g @nberlette/emoji
-# or
+```
+
+```bash
 npm i -g @nberlette/emoji
 ```
 
 #### 🔘  Usage & Syntax
 
-```bash
-emoji [keyword]
+```
+$ emoji [keyword]
 ```
 
 ##### ⚠️  **Warning**: if `keyword` is left blank, it currently prints **all emojis**.
