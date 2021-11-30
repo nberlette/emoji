@@ -1,4 +1,8 @@
-<h1 align="center">📖  Getting Started</h1><br><br><br>
+# 📖  Getting Started
+
+### [Command Line Interface](#-command-line-interface) • [Install as a Dependency](#-install-as-a-dependency) • [Integrate with your project](#integrate-with-your-project)
+
+- - -   
 
 ## Using with a Globally Distributed CDN
 
@@ -18,7 +22,7 @@ Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href
 <p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
-<br><br>
+<br>
 
 - - -   
 
@@ -54,6 +58,12 @@ import { emoji } from '@nberlette/emoji';
 import { emoji as emojiAlias } from '@nberlette/emoji';
 ```
 
+<br>
+<p align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</p>
+<br>
+
 ### 🅱️  `require`  ·  CommonJS: for Node.js, RunKit, ...
 
 CommonJS-equivalents to **default**, **named**, and **aliased** imports:
@@ -71,11 +81,11 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 
 - - -  
 
-<br><br>
+<br>
 <p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
-<br><br>
+<br>
 
 - - -   
 
@@ -112,11 +122,10 @@ emoji [keyword]
 <h5 align="center">
   <a href="https://mit-license.org" target="_blank" rel="noreferrer noopener">MIT</a> &middot; &copy; 2021+ <a href="https://n.berlette.com">Nicholas Berlette</a>
 </h5>
-<br><br><br>
-
-<div align="center">
+<br><br>
+<p align="center">
   <a href="#top"> 🔝  </a>
-</div><br>
+</p><br>
 
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
