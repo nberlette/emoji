@@ -1,8 +1,12 @@
 # 📖  Getting Started
 
-### [Command Line Interface](#-command-line-interface) • [Install as a Dependency](#-install-as-a-dependency) • [Integrate with your project](#integrate-with-your-project)
+### Skip to: [CLI](#-command-line-interface) • [Install](#-install-as-a-dependency) • [Integrate](#integrate-with-your-project)
+
+<br>
 
 - - -   
+
+<br>
 
 ## Using with a Globally Distributed CDN
 
@@ -12,7 +16,11 @@ Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href
 <h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs">🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</a></h4>
 <h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji">🆕  esm.run/@nberlette/emoji</a></h4>
 
+<br>
+
 - - -  
+
+<br>
 
 ## 🧪  Example using `esm.run`
 
@@ -58,11 +66,9 @@ import { emoji } from '@nberlette/emoji';
 import { emoji as emojiAlias } from '@nberlette/emoji';
 ```
 
-<br>
 <p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
-<br>
 
 ### 🅱️  `require`  ·  CommonJS: for Node.js, RunKit, ...
 
