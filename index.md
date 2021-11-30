@@ -89,7 +89,7 @@ CommonJS "equivalents" for **default**, **named**, and **aliased** imports:
 
 ```cjs
 // default
-const myEmojiLib = require('nberlette/emoji').default;
+const myEmojiLib = require('@nberlette/emoji').default;
 
 // named
 const { emoji } = require('@nberlette/emoji');
