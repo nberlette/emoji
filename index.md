@@ -4,9 +4,9 @@
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
-<h4 id="cdn-unpkg"><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com/@nberlette/emoji</code></a></h4>
-<h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</code></a></h4>
-<h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run/@nberlette/emoji</code></a></h4>
+<h4 id="cdn-unpkg"><a href="https://unpkg.com/@nberlette/emoji/">🔗  unpkg.com/@nberlette/emoji</a></h4>
+<h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs">🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</a></h4>
+<h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji">🆕  esm.run/@nberlette/emoji</a></h4>
 
 - - -  
 
@@ -108,13 +108,15 @@ emoji [keyword]
 
 - - -  
 
-<br><br><br>
+<br>
 <h5 align="center">
   <a href="https://mit-license.org" target="_blank" rel="noreferrer noopener">MIT</a> &middot; &copy; 2021+ <a href="https://n.berlette.com">Nicholas Berlette</a>
 </h5>
 <br><br><br>
 
-<h1 align="right" style="display: inline-block"><a href="#top"> 🔝 </a></h1><br>
+<div align="center">
+  <a href="#top"> 🔝  </a>
+</div><br>
 
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
