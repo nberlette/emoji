@@ -8,7 +8,15 @@
 
 - - -  
 
-<h2>Using with a Globally Distributed CDN</em></h2>
+<br><br>
+<h2 align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</h2>
+<br><br>
+
+- - -   
+
+## Using with a Globally Distributed CDN
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
@@ -20,9 +28,18 @@ Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href
 
 ## Example using `esm.run` + VanillaJS
 
-<iframe width="100%" height="350" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="450" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 
 - - -  
+
+<br><br><br><br>
+<h2 align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</h2>
+<br><br><br><br>
+
+- - -   
 
 
 ## 💿  Install as a Dependency
@@ -73,6 +90,14 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 ```
 
 - - -  
+
+<br><br><br><br>
+<h2 align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</h2>
+<br><br><br><br>
+
+- - -   
 
 
 ### 📺  Command Line Interface
