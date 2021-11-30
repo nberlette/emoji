@@ -4,15 +4,16 @@
 
 <div align="center">
   <p><strong>Straightforward emoji resources for your next project</strong></p>  
-  <p>JSON (<code>emoji.json</code>), ES6 (<code>index.mjs</code>), and CJS (<code>index.js</code>)</p>
+  <p>JSON (<code>emoji.json</code>) &nbsp;&middot;&nbsp; ES6 (<code>index.mjs</code>) &nbsp;&middot;&nbsp; CJS (<code>index.js</code>)</p>
 </div>
 
 
-<hr>
+- - -  
+
 
 ## 💿  Install as a Dependency
 
-Pick your flavor of package managers (I like pnpm, followed closely by yarn):
+Pick your flavor of package manager (I like pnpm, followed closely by yarn)
       
 ```bash
 pnpm add @nberlette/emoji
@@ -22,7 +23,7 @@ yarn add @nberlette/emoji
 npm i --save @nberlette/emoji
 ```
 
-<hr>
+- - -  
 
 <h2> 📦  CDN: <em>all the emojis, without the dependency!</em></h2>
 
@@ -46,15 +47,16 @@ import { emoji } from 'https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs';
 import { emoji } from 'https://esm.run/@nberlette/emoji';
 ```
 
-<br><hr><br>
+- - -  
 
-## VanillaJS Demo Using `esm.run` CDN
+## VanillaJS Example With `esm.run`
 
 <iframe width="100%" height="400" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<br><hr><br>
+- - -  
 
-## 🔘  Usage
+## 🔘  Usage  
+
 
 ### 🅰️  `import`  ·  ES6 (`.mjs`) for Next.js, React, Svelte, ...
 
@@ -86,8 +88,10 @@ const { emoji } = require('@nberlette/emoji');
 const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 ```
 
+- - -  
 
-### `📺  Command Line Interface`
+
+### 📺  Command Line Interface
 
 Before using the `emoji` command in your terminal, you'll first need to globally install it:
 
@@ -107,7 +111,7 @@ npm i -g @nberlette/emoji
 emoji [keyword]
 ```
 
-##### ⚠️ **Warning**: if `keyword` is left blank, it currently prints **all emojis**.
+##### ⚠️  **Warning**: if `keyword` is left blank, it currently prints **all emojis**.
 
 * **Exact match**:   returns just the `emoji` for `keyword`
 * **Single result**: returns the `emoji` + `keyword` (or _shortcode_)
