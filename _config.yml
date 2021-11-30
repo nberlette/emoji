@@ -3,7 +3,7 @@ theme: jekyll-theme-architect
 # plugins:
 #   - jekyll-remote-theme
 title: "@nberlette/emoji"
-description: "Emojis library 📦  ES6, CJS, and JSON"
+description: "Emojis library 📦 ES6, CJS, and JSON"
 show_downloads: true
 github:
   zip_url: "https://github.com/nberlette/emoji/archive/refs/tags/v2.0.0-next.1.zip"
