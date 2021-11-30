@@ -140,7 +140,7 @@ emoji [keyword]
 </h5>
 <br><br>
 
-<h1 style="display:inline-block;position:fixed;bottom:0.33em;right:1em;width:4em;height:4em;"><a href="#top"> 🔝  </a></h1>
+<h2 style="display:inline-block;position:fixed;bottom:20px;right:25px;width:4em;height:4em;"><a href="#top"> 🔝  </a></h2>
 
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
