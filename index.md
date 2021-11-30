@@ -139,9 +139,8 @@ emoji [keyword]
   <a href="https://mit-license.org" target="_blank" rel="noreferrer noopener">MIT</a> &middot; &copy; 2021+ <a href="https://n.berlette.com">Nicholas Berlette</a>
 </h5>
 <br><br>
-<p align="center">
-  <a href="#top"> 🔝  </a>
-</p><br>
+
+<h2 style="display:inline-block;position:fixed;bottom:1em;right:1em;width:4em;height:4em;"><a href="#top"> 🔝  </a></h2>
 
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
