@@ -2,13 +2,13 @@
 
 ***Jump To:***&nbsp; ·•· [Example Fiddle](#-example-using-esmrun) ·•· [Installation](#-install-as-a-dependency) ·•· [Integration](#integrate-with-your-project) ·•·  [Command Line Interface](#-command-line-interface) ·•·
 
-<br>
+- - -  
 
-<!-- ## 📖  Getting Started -->
+<p align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</p>
 
 - - -   
-
-<br>
 
 ## Using with a Globally Distributed CDN
 
@@ -18,21 +18,25 @@ Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href
 <h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs">🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</a></h4>
 <h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji">🆕  esm.run/@nberlette/emoji</a></h4>
 
-<br>
-
 - - -  
 
-<br>
+<p align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</p>
+
+- - -   
 
 ## 🧪  Example using `esm.run`
 
 <iframe width="100%" height="450" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<br><br>
+<br>
+
+- - -  
+
 <p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
-<br>
 
 - - -   
 
@@ -49,6 +53,12 @@ npm i --save @nberlette/emoji
 ```
 
 - - -  
+
+<p align="center">
+  &middot;&nbsp;&middot;&nbsp;&middot;
+</p>
+
+- - -   
 
 ## 🔘  Integrate with your project
 
@@ -89,11 +99,9 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 
 - - -  
 
-<br>
 <p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
-<br>
 
 - - -   
 
