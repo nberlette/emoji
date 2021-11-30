@@ -1,10 +1,10 @@
-# @nberlette/emoji
+<!-- # @nberlette/emoji -->
 
-***Skip to:*** ·•· [Installation](#-install-as-a-dependency) ·•· [Integration](#integrate-with-your-project) ·•·  [Command Line Interface](#-command-line-interface)  ·•·
+***Jump To:***&nbsp; ·•· [Example Fiddle](#-example-using-esmrun) ·•· [Installation](#-install-as-a-dependency) ·•· [Integration](#integrate-with-your-project) ·•·  [Command Line Interface](#-command-line-interface) ·•·
 
 <br>
 
-## 📖  Getting Started
+<!-- ## 📖  Getting Started -->
 
 - - -   
 
