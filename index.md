@@ -10,13 +10,13 @@
 
 - - -   
 
-## Using with a Globally Distributed CDN
+## 🌍  Using with Content Delivery Networks (CDNs)
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
-<h4 id="cdn-unpkg"><a href="https://unpkg.com/@nberlette/emoji/">🔗  unpkg.com/@nberlette/emoji</a></h4>
-<h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs">🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</a></h4>
-<h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji">🆕  esm.run/@nberlette/emoji</a></h4>
+<h3 id="cdn-unpkg"><a href="https://unpkg.com/@nberlette/emoji/">🔗  <code>unpkg.com/@nberlette/emoji</code></a></h3>
+<h3 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs">🔗  <code>cdn.jsdelivr.net/npm/@nberlette/emoji</code></a></h3>
+<h3 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji">🆕  <code>esm.run/@nberlette/emoji</code></a></h3>
 
 - - -  
 
@@ -62,8 +62,9 @@ npm i --save @nberlette/emoji
 
 ## 🔘  Integrate with your project
 
+There's two distinctive styles of code to choose from, depending on your project's configuration.
 
-### 🅰️  `import`  ·  ES6: for Next.js, React, Svelte, ...
+### 🅰️  ES6 (`import`): used by Next.js, React, Svelte, Babel ...
 
 Works with **default** (any name), **named** (must be `emoji`), and **aliased** (assign a new name):
 
@@ -82,9 +83,9 @@ import { emoji as emojiAlias } from '@nberlette/emoji';
   &middot;&nbsp;&middot;&nbsp;&middot;
 </p>
 
-### 🅱️  `require`  ·  CommonJS: for Node.js, RunKit, ...
+### 🅱️  CommonJS (`require`): used by Node.js, RunKit, ...
 
-CommonJS-equivalents to **default**, **named**, and **aliased** imports:
+CommonJS "equivalents" for **default**, **named**, and **aliased** imports:
 
 ```cjs
 // default
@@ -96,6 +97,13 @@ const { emoji } = require('@nberlette/emoji');
 // aliased
 const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 ```
+
+> Please note the quotes around "equivalents". 
+> `require` is a far cry from `import`, both in terms of functionality, and level of community support.
+> CommonJS also forces us to include **entire modules**, even when we only need a couple lines of code.
+> On the other hand, `import` often grants us optimizations such as [tree-shaking][treeshaking-url] and [code splitting][codesplitting-url].
+> 
+> Food for thought. 😉 
 
 - - -  
 
