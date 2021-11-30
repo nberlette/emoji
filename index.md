@@ -1,8 +1,10 @@
-# 📖  Getting Started
+# @nberlette/emoji
 
-### Skip to: [CLI](#-command-line-interface) • [Install](#-install-as-a-dependency) • [Integrate](#integrate-with-your-project)
+***Skip to:*** ·•· [Installation](#-install-as-a-dependency) ·•· [Integration](#integrate-with-your-project) ·•·  [Command Line Interface](#-command-line-interface)  ·•·
 
 <br>
+
+## 📖  Getting Started
 
 - - -   
 
