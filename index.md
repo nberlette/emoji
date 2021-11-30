@@ -1,46 +1,26 @@
-<h1 align="center">
-  <span>📦  <a href="https://github.com/nberlette/emoji">@nberlette/emoji</a></span>
-</h1>
-
-<div align="center">
-  <p>JSON (<code>emoji.json</code>) &nbsp;&middot;&nbsp; ES6 (<code>index.mjs</code>) &nbsp;&middot;&nbsp; CJS (<code>index.js</code>)</p>
-</div>
-
-- - -  
-
-<br><br>
-<h2 align="center">
-  &middot;&nbsp;&middot;&nbsp;&middot;
-</h2>
-<br><br>
-
-- - -   
+<h1 align="center">📖  Getting Started</h1><br><br><br>
 
 ## Using with a Globally Distributed CDN
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
-<h4><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com/@nberlette/emoji</code></a></h4>
-<h4><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</code></a></h4>
-<h4><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run/@nberlette/emoji</code></a></h4>
+<h4 id="cdn-unpkg"><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com/@nberlette/emoji</code></a></h4>
+<h4 id="cdn-jsdelivr"><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</code></a></h4>
+<h4 id="cdn-esmrun"><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run/@nberlette/emoji</code></a></h4>
 
 - - -  
 
-## Example using `esm.run` + VanillaJS
+## 🧪  Example using `esm.run`
 
 <iframe width="100%" height="450" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-
-- - -  
-
-<br><br><br><br>
-<h2 align="center">
+<br><br>
+<p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
-</h2>
-<br><br><br><br>
+</p>
+<br><br>
 
 - - -   
-
 
 ## 💿  Install as a Dependency
 
@@ -56,7 +36,7 @@ npm i --save @nberlette/emoji
 
 - - -  
 
-## 🔘  Usage  
+## 🔘  Integrate with your project
 
 
 ### 🅰️  `import`  ·  ES6: for Next.js, React, Svelte, ...
@@ -91,11 +71,11 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 
 - - -  
 
-<br><br><br><br>
-<h2 align="center">
+<br><br>
+<p align="center">
   &middot;&nbsp;&middot;&nbsp;&middot;
-</h2>
-<br><br><br><br>
+</p>
+<br><br>
 
 - - -   
 
@@ -104,7 +84,7 @@ const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 
 Before using the `emoji` command in your terminal, you'll first need to globally install it:
 
-#### 💿  Install
+#### 💿  Global installation
 
 ```bash
 yarn global add @nberlette/emoji
@@ -114,7 +94,7 @@ pnpm add -g @nberlette/emoji
 npm i -g @nberlette/emoji
 ```
 
-#### 🔘  Usage
+#### 🔘  Usage & Syntax
 
 ```bash
 emoji [keyword]
@@ -125,5 +105,16 @@ emoji [keyword]
 * **Exact match**:   returns just the `emoji` for `keyword`
 * **Single result**: returns the `emoji` + `keyword` (or _shortcode_)
 * **Many results**:  returns `emoji`, `keyword` pair for each matching entry
+
+- - -  
+
+<br><br><br>
+<h5 align="center">
+  <a href="https://mit-license.org" target="_blank" rel="noreferrer noopener">MIT</a> &middot; &copy; 2021+ <a href="https://n.berlette.com">Nicholas Berlette</a>
+</h5>
+<br><br><br>
+
+<h1 align="right" style="display: inline-block"><a href="#top"> 🔝 </a></h1><br>
+
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
