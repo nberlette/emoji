@@ -65,16 +65,16 @@ npm i --save @nberlette/emoji
 
 ### 🅰️  `import`  ·  ES6: for Next.js, React, Svelte, ...
 
-Works with **default** (any variable name!), **named** (must be `emoji`), and **aliased** (assign a new name) imports:
+Works with **default** (any name), **named** (must be `emoji`), and **aliased** (assign a new name):
 
 ```js
-// default import
+// default
 import nicksEmojiLib from '@nberlette/emoji';
 
-// named import
+// named 
 import { emoji } from '@nberlette/emoji';
 
-// aliased named import
+// aliased
 import { emoji as emojiAlias } from '@nberlette/emoji';
 ```
 
@@ -140,7 +140,7 @@ emoji [keyword]
 </h5>
 <br><br>
 
-<h2 style="display:inline-block;position:fixed;bottom:20px;right:25px;width:4em;height:4em;"><a href="#top"> 🔝  </a></h2>
+<h2 style="display:inline-block;position:fixed;bottom:5px;right:25px;width:4em;height:4em;"><a href="#top"> 🔝  </a></h2>
 
 
 <!-- ![emoji usage example](https://github.com/nberlette/emoji/raw/master/screenshot.png) -->
