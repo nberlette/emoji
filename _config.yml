@@ -1,7 +1,7 @@
-theme: jekyll-theme-slate
-remote_theme: pages-themes/slate@latest
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-architect
+# remote_theme: pages-themes/slate@latest
+# plugins:
+#   - jekyll-remote-theme
 # title:
 # description:
 show_downloads: true
