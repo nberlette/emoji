@@ -110,15 +110,12 @@ const { emoji } = require('@nberlette/emoji');
 const { emoji: myEmojiAlias } = require('@nberlette/emoji');
 ```
 
-> Please note the quotes around "equivalents". 
-> `require` is a far cry from `import`, both in terms of functionality, and level of community support.
-> CommonJS also forces us to include **entire modules**, even when we only need a couple lines of code.
-> On the other hand, `import` often grants us optimizations such as [tree-shaking][treeshaking-url] and [code splitting][codesplitting-url].
-> 
-> Food for thought. 😉 
-
-[treeshaking-url]: https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking "Tree-Shaking Definition - MDN Glossary"
-[codesplitting-url]: https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting "Code Splitting Definition - MDN Glossary"
+> Please note the quotes around "equivalents".  
+> `require` is a far cry from `import`, both in terms of functionality, and level of community support.  
+> CommonJS also forces us to include **entire modules**, even when we only need a couple lines of code.  
+> Furthermore, ES modules can allow [**`tree-shaking`**](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking "Tree-Shaking Definition - MDN Glossary") and [**`code splitting`**](https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting "Code Splitting Definition - MDN Glossary").  
+>   
+> Just some food for thought. I'll let you be the judge 😉 
 
 - - -  
 
