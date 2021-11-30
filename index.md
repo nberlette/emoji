@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span>📦  <code>@nberlette/emoji</code></span>
+  <span>📦  <a href="https://github.com/nberlette/emoji">@nberlette/emoji</a></span>
 </h1>
 
 <div align="center">
@@ -30,9 +30,13 @@ Content Delivery Networks (or <mark>CDN</mark>) are <strong>freakin' awesome</st
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
+### 🔘  Globally distributed on multiple networks
+
 <h4><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com</code></a></h4>
 <h4><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net</code></a></h4>
 <h4><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run</code></a></h4>
+
+### 🔘  Import directly from a URL!
 
 ```js
 import { emoji } from 'https://unpkg.com/@nberlette/emoji';
