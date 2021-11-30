@@ -3,10 +3,24 @@
 </h1>
 
 <div align="center">
-  <p><strong>Straightforward emoji resources for your next project</strong></p>  
   <p>JSON (<code>emoji.json</code>) &nbsp;&middot;&nbsp; ES6 (<code>index.mjs</code>) &nbsp;&middot;&nbsp; CJS (<code>index.js</code>)</p>
 </div>
 
+- - -  
+
+<h2>Using a CDN: <em>all the emojis, without the dependency!</em></h2>
+
+Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
+
+<h4><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com/@nberlette/emoji</code></a></h4>
+<h4><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net/npm/@nberlette/emoji</code></a></h4>
+<h4><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run/@nberlette/emoji</code></a></h4>
+
+- - -  
+
+## Example using `esm.run` + VanillaJS
+
+<iframe width="100%" height="400" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 - - -  
 
@@ -22,36 +36,6 @@ yarn add @nberlette/emoji
 
 npm i --save @nberlette/emoji
 ```
-
-- - -  
-
-<h2> 📦  CDN: <em>all the emojis, without the dependency!</em></h2>
-
-Content Delivery Networks (or <mark>CDN</mark>) are <strong>freakin' awesome</strong>.
-
-Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
-
-### 🔘  Globally distributed on multiple networks
-
-<h4><a href="https://unpkg.com/@nberlette/emoji/"><code> 🔗  unpkg.com</code></a></h4>
-<h4><a href="https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs"><code> 🔗  cdn.jsdelivr.net</code></a></h4>
-<h4><a href="https://esm.run/@nberlette/emoji"><code>🆕  esm.run</code></a></h4>
-
-### 🔘  Import directly from a URL!
-
-```js
-import { emoji } from 'https://unpkg.com/@nberlette/emoji';
-
-import { emoji } from 'https://cdn.jsdelivr.net/npm/@nberlette/emoji/index.mjs';
-
-import { emoji } from 'https://esm.run/@nberlette/emoji';
-```
-
-- - -  
-
-## VanillaJS Example With `esm.run`
-
-<iframe width="100%" height="400" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 - - -  
 
