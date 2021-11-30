@@ -2,8 +2,8 @@ theme: jekyll-theme-architect
 # remote_theme: pages-themes/slate@latest
 # plugins:
 #   - jekyll-remote-theme
-title: "📦  @nberlette/emoji"
-description: "ES + CJS + JSON"
+title: "📦 nberlette/emoji"
+description: "ES, CJS, JSON"
 show_downloads: true
 github:
   zip_url: "https://github.com/nberlette/emoji/archive/refs/tags/v2.0.0-next.1.zip"
