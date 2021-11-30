@@ -8,7 +8,7 @@
 
 - - -  
 
-<h2>Using a CDN: <em>all the emojis, without the dependency!</em></h2>
+<h2>Using with a Globally Distributed CDN</em></h2>
 
 Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href="https://jsdelivr.com">jsdelivr</a>, and <a href="https://esm.run">esm.run</a>, you can use packages like this without adding **any** dependencies to your project! (preferably only in your development environment)
 
@@ -20,7 +20,7 @@ Thanks to wonderful services like <a href="https://unpkg.com">unpkg</a>, <a href
 
 ## Example using `esm.run` + VanillaJS
 
-<iframe width="100%" height="400" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="350" src="//jsfiddle.net/berlenic/1a23g4ob/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 - - -  
 
