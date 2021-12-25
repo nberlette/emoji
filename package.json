@@ -11,10 +11,9 @@
   "description": "🔥 Super-simple emoji database and CLI.",
   "keywords": [
     "emoji",
-    "emojis-database",
-    "emojis-filter",
     "command-line",
     "cli",
+    "esm",
     "emojis"
   ],
   "homepage": "https://github.com/nberlette/emoji",
@@ -25,9 +24,9 @@
     "emoji": "./bin/emoji.js"
   },
   "scripts": {
-    "emoji": "node ./bin/emoji.js",
-    "test": "node ./test/basic.mjs",
-    "test:cjs": "node ./test/basic.js",
+    "emoji": "node bin/emoji",
+    "test": "node test/basic.mjs",
+    "test:cjs": "node test/basic",
     "lint": "standard",
     "lint:fix": "standard --fix"
   },
@@ -39,15 +38,12 @@
     "index.js",
     "index.mjs",
     "emoji.json",
-    "bin/emoji.js",
-    "README.md",
-    "LICENSE"
+    "bin"
   ],
   "main": "./index.js",
   "module": "./index.mjs",
   "esnext": "./index.mjs",
   "browser": "./index.mjs",
-  "unpkg": "./index.mjs",
   "exports": {
     ".": {
       "import": "./index.mjs",
@@ -58,6 +54,6 @@
     "./emoji.json": "./emoji.json"
   },
   "devDependencies": {
-    "standard": "~16.0.3"
+    "standard": "16.0.3"
   }
 }

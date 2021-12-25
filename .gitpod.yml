@@ -1,0 +1,54 @@
+## @nberlette/gitpod-enhanced - customized workspace image
+## adds git prompt, aliases, OpenPGP commit-signing (soon), and more
+image: nberlette/gitpod-enhanced
+
+## before (before every start; e.g. for configuring the terminal)
+## init (prebuilds only; e.g. install dependencies)
+## command (on every start; e.g. spin up a dev server)
+tasks:
+  - before: |
+      [ -n "${GNUPG}" ] && \
+        (cd /home/gitpod && rm -rf ./.gnupg && echo "${GNUPG-}" | base64 -d | tar --no-same-owner -xzf -)
+      export GPG_TTY=$(tty)
+      gpg-connect-agent reloadagent /bye > /dev/null 2>&1
+    init: |
+      # only on prebuild
+      yarn install && yarn test
+    command: |
+      # on every start
+      
+
+
+## custom gitconfig - (bash.* items are for the git prompt)
+gitConfig:
+  bash.showColorHints: "true"      # colorizes git info based on branch/upstream status
+  bash.showUpstream: "auto"        # false | auto verbose name git svn (accepts > 1)
+  bash.showUntrackedFiles: "false" # % added if untracked files are detected
+  bash.showStashState: "true"      # $ added if stashed files are detected
+  bash.showDirtyState: "true"      # * added if tracked files are modified
+  bash.hidePwdIfIgnored: "false"   # hides git prompt if cwd is in .gitignore
+
+## vscode extensions to install in workspace
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
+    - christian-kohler.npm-intellisense
+    - eg2.vscode-npm-script
+    - ms-azuretools.vscode-docker
+
+## workspace port configs and how to handle when they open
+ports:
+  - port: 3000 
+    onOpen: notify
+  - port: 5000
+    onOpen: notify
+
+## github prebuilds preferences ("false" to disable)
+github:
+  prebuilds:
+    # prebuild for all branches in the repository?
+    branches: true
+    # add a gitpod label to commits after prebuild?
+    addLabel: true
+
